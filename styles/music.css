@@ -1,0 +1,65 @@
+.music-section {
+    background-color: var(--gray-color);
+}
+
+.music-section h2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.music-section h2 i {
+    color: var(--primary-color);
+}
+
+.music-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    padding: 0 1rem;
+}
+
+.music-card {
+    background-color: var(--dark-color);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.music-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.music-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.music-info {
+    padding: 1.5rem;
+}
+
+.music-info h3 {
+    margin-bottom: 0.5rem;
+    color: var(--light-color);
+    font-size: 1.25rem;
+}
+
+.music-info p {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.music-info p i {
+    font-size: 1rem;
+}

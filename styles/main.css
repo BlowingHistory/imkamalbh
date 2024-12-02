@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #1DB954;      /* Spotify Green */
+    --secondary-color: #FF0000;    /* YouTube Red */
+    --accent-color: #E1306C;       /* Instagram Pink */
+    --dark-color: #121212;         /* Dark Background */
+    --light-color: #FFFFFF;
+    --gray-color: #282828;
+    --text-color: #FFFFFF;
+    --background-color: #121212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+section {
+    padding: 4rem 2rem;
+}
+
+h1, h2 {
+    margin-bottom: 1.5rem;
+    color: var(--light-color);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+footer p {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 2rem 1rem;
+    }
+}
